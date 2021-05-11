@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Monlin</title>
+<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
+<link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<div class="header-top-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-right">
+        <h4 class="m-0 py-3" style="color:#f7941d; border-bottom:1px solid rgba(229,188,139,0.5);">Call us at: 072 908 6622 </h4>
+      </div>
+    </div>
+  </div>
+  
+  <!--------------Top bar ends here------------------>
+  
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container my-3"> <a class="navbar-brand logo" href="#">
+      <img src="img/logo-2.png">
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+         <li class="nav-item"> <a class="nav-link" href="#service">Service</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-target="#contactModal" data-toggle="modal" href="">Contact</a> </li>
+        </ul>
+        <form class="form-inline ml-3 my-lg-0">
+          <button class="btn btn-warning font-weight-bold dd2" type="submit" data-target="#exampleModal" data-toggle="modal">BOOK NOW</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+<!--------------Nav bar ends here------------------>
+
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel carousel-fade slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active"> <img src="img/slide-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><span>We are</span> Expert <span>in pest control</span></h5>
+          <p>Don't worry we will help out you!<br />
+            Fastest pest control system ever!</p>
+          <a href="#service" class="btn btn-outline-light align-items-center float-left d-flex text-uppercase dd2">View More &nbsp; <i class="lni-arrow-right"></i></a> </div>
+      </div>
+      <div class="carousel-item"> <img src="img/slide-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Safe Ways <span> to control</span></h5>
+          <p>Perfect pest control system!<br />
+            Pest around your home!</p>
+          <a href="" class="btn btn-outline-light align-items-center float-left d-flex text-uppercase dd2" data-target="#bookNowViewModal" data-toggle="modal">Book Now &nbsp; <i class="lni-arrow-right"></i></a> </div>
+      </div>
+      <div class="carousel-item"> <img src="img/slide-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><span>Worried</span> with Pests?</h5>
+          <p>Don't worry we will help out you!<br />
+            Fastest pest control system ever! </p>
+          <a href="" class="btn btn-outline-light align-items-center float-left d-flex text-uppercase dd2" data-target="#contactViewModal" data-toggle="modal">Contact Us &nbsp; <i class="lni-arrow-right"></i></a> </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev"> <span class="carousel-control-prev-icon bb" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next"> <span class="carousel-control-next-icon bb" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+
+
+
+
+
+<!---Booking model------>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Booking Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name">
+         <select name="booking_type" class="form-control">
+          <option value="">Booking For:</option>
+        <option value="Inspection">Inspection</option>
+        <option value="InPest removal">Pest removal</option>
+        </select>
+        <input type="number" maxlength="10"  name="contact_number" class="form-control" placeholder="Please Enter Your Contact Number">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Booking---->
+
+
+
+
+<!---Booking model View------>
+
+<!-- Modal -->
+<div class="modal fade" id="bookNowViewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Booking Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name">
+         <select name="booking_type" class="form-control">
+          <option value="">Booking For:</option>
+        <option value="Inspection">Inspection</option>
+        <option value="InPest removal">Pest removal</option>
+        </select>
+        <input type="number" maxlength="10"  name="contact_number" class="form-control" placeholder="Please Enter Your Contact Number">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Booking View---->
+
+
+
+<!---contact model view------>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name">
+        <input type="number" name="contact_umber" class="form-control" placeholder="Please Enter Your Contact Number">
+        <input type="email" name="email" class="form-control" placeholder="Please Enter Your Email">
+        <input type="text" name="subject" class="form-control" placeholder="Please Enter Email Subject">
+        <textarea name="message" cols="4" rows="3" class="form-control" placeholder="Type a message here"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End contact view---->
+
+
+
+
+<!---Booking ------>
+
+<!-- Modal contact -->
+<div class="modal fade" id="contactViewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name">
+        <input type="number" name="contact_umber" class="form-control" placeholder="Please Enter Your Contact Number">
+        <input type="email" name="email" class="form-control" placeholder="Please Enter Your Email">
+        <input type="text" name="subject" class="form-control" placeholder="Please Enter Email Subject">
+        <textarea name="message" cols="4" rows="3" class="form-control" placeholder="Type a message here"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Booking---->
+
+
+
+<!-- Modal contact view -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name">
+        <input type="number" name="contact_umber" class="form-control" placeholder="Please Enter Your Contact Number">
+        <input type="email" name="email" class="form-control" placeholder="Please Enter Your Email">
+        <input type="text" name="subject" class="form-control" placeholder="Please Enter Email Subject">
+        <textarea name="message" cols="4" rows="3" class="form-control" placeholder="Type a message here"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Booking view---->
+
+
+
+<!-- Modal contact footer -->
+<div class="modal fade" id="contactfooterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name">
+        <input type="number" name="contact_umber" class="form-control" placeholder="Please Enter Your Contact Number">
+        <input type="email" name="email" class="form-control" placeholder="Please Enter Your Email">
+        <input type="text" name="subject" class="form-control" placeholder="Please Enter Email Subject">
+        <textarea name="message" cols="4" rows="3" class="form-control" placeholder="Type a message here"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Booking footer---->
+
+
+<!--------------banner ends here------------------>
+<div id="about">
+<div class="bg-wrapper">
+  <div class="container py-5">
+    <div class="row py-5">
+      <div class="col-12 col-md-6 mb-3">
+        <div class="text-left section-about-us">
+          <h2> <span>About Us</span> Monlin Pest Control gives you Best Service and Excellent Support. </h2>
+          <div class="divider divider-line"></div>
+          <p>Monlin is a licensed pest control company, serving Mpumalanga for Over 3 years now. Pest control 
+            management is what we do! We live and work here, just like you do. Our number one priority is 
+            keeping this community happy by protecting it's people and property from pests looking to invade 
+            our homes.</p>
+        
+        </div>
+      </div>
+      <div class="col-12 col-md-6 text-right"> <img src="img/11.jpeg" class="img-fluid w-75" /> </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--------------about section ends here------------------>
+<div id="service">
+<div class="bg-wrapper-2">
+  <div class="container py-5">
+    <div class="row pt-4 justify-content-center">
+      <div class="col-7 text-center">
+        <div class="section-title section-title-2">
+          <h2>Our Services</h2>
+          <h3>Our Best Popular Services for you.</h3>
+          <span class="divider divider-line"></span> </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-1.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>COCKROACH CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-2.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>FLY CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-3.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>YELLOW JACKET CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-4.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>CARPENTER BEES CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-5.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>MOSQUITO CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-6.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>TERMITE CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-7.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>ANT CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <img src="img/pest-8.jpg" class="img-fluid rounded-circle" /> </div>
+            <div class="col-9">
+              <h4>RODENT CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="feature-item">
+          <div class="row">
+            <div class="col-3"> <i class="fa fa-snowflake-o"></i> </div>
+            <div class="col-9">
+              <h4>TERMITE CONTROL</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+</div>
+
+<!--------------service section ends here------------------>
+<div id="gallery">
+  <!-- Portfolio Section -->
+      <section id="portfolios" class="section-padding">
+        <!-- Container Starts -->
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Works</h2>
+            <p>We provide the Best Service <br></p>
+          </div>
+          <div class="row">          
+            <div class="col-md-12">
+              <!-- Portfolio Controller/Buttons -->
+              <div class="controls text-center">
+                <a class="filter active btn btn-common btn-effect" data-filter="all">
+                  All 
+                </a>
+                <a class="filter btn btn-common btn-effect" data-filter=".design">
+                  COCKROACH CONTROL 
+                </a>
+                <a class="filter btn btn-common btn-effect" data-filter=".development">
+                  FLY CONTROL
+                </a>
+                <a class="filter btn btn-common btn-effect" data-filter=".print">
+                  MOSQUITO CONTROL 
+                </a>
+              </div>
+              <!-- Portfolio Controller/Buttons Ends-->
+            </div>
+          </div>
+  
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/1.jpeg" alt="" />  
+                  <div class="single-content">
+                    <div class="fancy-table">
+                      <div class="table-cell">
+                        <div class="zoom-icon">
+                          <a class="lightbox" href="assets/img/portfolio/2.jpeg"><i class="lni-eye item-icon"></i></a>
+                        </div>
+                        <a href="#">Creative Design</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/3.jpeg" alt="" /> 
+                  <div class="single-content">
+                    <div class="fancy-table">
+                      <div class="table-cell">
+                        <div class="zoom-icon">
+                          <a class="lightbox" href="assets/img/portfolio/4.jpeg"><i class="lni-eye item-icon"></i></a>
+                        </div>
+                        <a href="#">Retina Ready</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/5.jpeg" alt="" />  
+                  <div class="single-content">
+                    <div class="fancy-table">
+                      <div class="table-cell">
+                        <div class="zoom-icon">
+                          <a class="lightbox" href="assets/img/portfolio/6.jpeg"><i class="lni-eye item-icon"></i></a>
+                        </div>
+                        <a href="#">Responsive</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/7.jpeg" alt="" /> 
+                  <div class="single-content">
+                    <div class="fancy-table">
+                      <div class="table-cell">
+                        <div class="zoom-icon">
+                          <a class="lightbox" href="assets/img/portfolio/8.jpeg"><i class="lni-eye item-icon"></i></a>
+                        </div>
+                        <a href="#">Well Documented</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/9.jpeg" alt="" />  
+                  <div class="single-content">
+                    <div class="fancy-table">
+                      <div class="table-cell">
+                        <div class="zoom-icon">
+                          <a class="lightbox" href="assets/img/portfolio/10.jpeg"><i class="lni-eye item-icon"></i></a>
+                        </div>
+                        <a href="#">Customer Support</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/11.jpeg" alt="" />  
+                  <div class="single-content">
+                    <div class="fancy-table">
+                      <div class="table-cell">
+                        <div class="zoom-icon">
+                          <a class="lightbox" href="assets/img/portfolio/12.jpeg"><i class="lni-eye item-icon"></i></a>
+                        </div>
+                        <a href="#">User Friendly</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Container Ends -->
+      </section>
+      <!-- Portfolio Section Ends --> 
+  </div>
+
+
+
+<div class="main-footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="info-box d-flex align-items-center">
+          <div class="icon-box"> <i class="lni-phone-handset"></i> </div>
+          <div class="info-text">
+            <h6>Have a question? Call us now</h6>
+            <h4>072 908 6622</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="info-box d-flex align-items-center">
+          <div class="icon-box"> <i class="lni-alarm-clock"></i> </div>
+          <div class="info-text">
+            <h6>We are open on</h6>
+            <h4>Mon - Fri 08:00 - 20:00</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="info-box d-flex align-items-center">
+          <div class="icon-box"> <i class="lni-envelope"></i> </div>
+          <div class="info-text">
+            <h6>Need support? Drop us an email</h6>
+            <h4>info@monlin.co.za</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row py-3">
+      <div class="col-md-3 col-sm-6 d-flex align-items-center">
+        <div class="footer-logo-wrapper">
+          <div class="footer-logo"> <a href="#"><img src="img/logo.png" alt=""></a> </div>
+          <div>
+            <p>At Monlin I work independently, dedicated to serving my customers. I pledge to uphold the highest 
+              of quality standards at all times, and thoroughly meet your needs.
+              I am passionate about pest control management. I am professionally licensed and experienced 
+              serving the needs of home and Business Owners.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <div class="footer-links">
+          <h4> Links</h4>
+          <div style="width:45px; border-bottom:2px solid #F7941D"></div>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact" data-target="#contactfooterModal" data-toggle="modal">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <div style="width:45px; border-bottom:2px solid #F7941D"></div>
+          <ul>
+            <li> <a href="tel:(804) 614-4556"> Phone: 072 908 6622 </a> </li>
+            <li> STAND NO 41, MSOGWABA MPUMALANGA 1215, NELSPRUIT MPUMALANGA 1200 </li>
+            <li><a href="mailto:info@monlin.co.za">Email: info@monlin.co.za</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="footer-social">
+          <h4>Social With Us</h4>
+          <div style="width:45px; border-bottom:2px solid #F7941D"></div>
+          <ul class="social-list">
+            <li> <a href="#"><i class="lni-facebook-filled"></i></a> </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------Footer section ends here --------------------->
+
+<div class="container">
+  <div class="row py-3">
+
+    <div class="col-md-8 text-center text-md-right py-1 small dd"> © Copyright 2021 monlin. All Rights Reserved. </div>
+  </div>
+</div>
+
+<!---------------Copyright section ends here ---------------------> 
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/jquery.bxslider.min.js"></script> 
+   <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>  
+    <script src="assets/js/nivo-lightbox.js"></script>     
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>     
+    <script src="assets/js/waypoints.min.js"></script>   
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.slider').bxSlider({	
+	minSlides:1,
+	maxSlides:1,
+    captions:false
+	});
+  });
+  var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+</script>
+</body>
+</html>
